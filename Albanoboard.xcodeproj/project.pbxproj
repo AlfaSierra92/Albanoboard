@@ -1,0 +1,614 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F7A805332C49591900B3790F /* AlbanoboardApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A805322C49591900B3790F /* AlbanoboardApp.swift */; };
+		F7A805352C49591900B3790F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A805342C49591900B3790F /* ContentView.swift */; };
+		F7A805372C49591A00B3790F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7A805362C49591A00B3790F /* Assets.xcassets */; };
+		F7A8053B2C49591A00B3790F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7A8053A2C49591A00B3790F /* Preview Assets.xcassets */; };
+		F7A805452C49591A00B3790F /* AlbanoboardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A805442C49591A00B3790F /* AlbanoboardTests.swift */; };
+		F7A8054F2C49591A00B3790F /* AlbanoboardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A8054E2C49591A00B3790F /* AlbanoboardUITests.swift */; };
+		F7A805512C49591A00B3790F /* AlbanoboardUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A805502C49591A00B3790F /* AlbanoboardUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F7A805412C49591A00B3790F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F7A805272C49591900B3790F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F7A8052E2C49591900B3790F;
+			remoteInfo = Albanoboard;
+		};
+		F7A8054B2C49591A00B3790F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F7A805272C49591900B3790F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F7A8052E2C49591900B3790F;
+			remoteInfo = Albanoboard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F7A8052F2C49591900B3790F /* Albanoboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Albanoboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7A805322C49591900B3790F /* AlbanoboardApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbanoboardApp.swift; sourceTree = "<group>"; };
+		F7A805342C49591900B3790F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F7A805362C49591A00B3790F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F7A805382C49591A00B3790F /* Albanoboard.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Albanoboard.entitlements; sourceTree = "<group>"; };
+		F7A8053A2C49591A00B3790F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F7A805402C49591A00B3790F /* AlbanoboardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlbanoboardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7A805442C49591A00B3790F /* AlbanoboardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbanoboardTests.swift; sourceTree = "<group>"; };
+		F7A8054A2C49591A00B3790F /* AlbanoboardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlbanoboardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7A8054E2C49591A00B3790F /* AlbanoboardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbanoboardUITests.swift; sourceTree = "<group>"; };
+		F7A805502C49591A00B3790F /* AlbanoboardUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbanoboardUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F7A8052C2C49591900B3790F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7A8053D2C49591A00B3790F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7A805472C49591A00B3790F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F7A805262C49591900B3790F = {
+			isa = PBXGroup;
+			children = (
+				F7A805312C49591900B3790F /* Albanoboard */,
+				F7A805432C49591A00B3790F /* AlbanoboardTests */,
+				F7A8054D2C49591A00B3790F /* AlbanoboardUITests */,
+				F7A805302C49591900B3790F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F7A805302C49591900B3790F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F7A8052F2C49591900B3790F /* Albanoboard.app */,
+				F7A805402C49591A00B3790F /* AlbanoboardTests.xctest */,
+				F7A8054A2C49591A00B3790F /* AlbanoboardUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F7A805312C49591900B3790F /* Albanoboard */ = {
+			isa = PBXGroup;
+			children = (
+				F7A805322C49591900B3790F /* AlbanoboardApp.swift */,
+				F7A805342C49591900B3790F /* ContentView.swift */,
+				F7A805362C49591A00B3790F /* Assets.xcassets */,
+				F7A805382C49591A00B3790F /* Albanoboard.entitlements */,
+				F7A805392C49591A00B3790F /* Preview Content */,
+			);
+			path = Albanoboard;
+			sourceTree = "<group>";
+		};
+		F7A805392C49591A00B3790F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F7A8053A2C49591A00B3790F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F7A805432C49591A00B3790F /* AlbanoboardTests */ = {
+			isa = PBXGroup;
+			children = (
+				F7A805442C49591A00B3790F /* AlbanoboardTests.swift */,
+			);
+			path = AlbanoboardTests;
+			sourceTree = "<group>";
+		};
+		F7A8054D2C49591A00B3790F /* AlbanoboardUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F7A8054E2C49591A00B3790F /* AlbanoboardUITests.swift */,
+				F7A805502C49591A00B3790F /* AlbanoboardUITestsLaunchTests.swift */,
+			);
+			path = AlbanoboardUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F7A8052E2C49591900B3790F /* Albanoboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7A805542C49591A00B3790F /* Build configuration list for PBXNativeTarget "Albanoboard" */;
+			buildPhases = (
+				F7A8052B2C49591900B3790F /* Sources */,
+				F7A8052C2C49591900B3790F /* Frameworks */,
+				F7A8052D2C49591900B3790F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Albanoboard;
+			productName = Albanoboard;
+			productReference = F7A8052F2C49591900B3790F /* Albanoboard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F7A8053F2C49591A00B3790F /* AlbanoboardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7A805572C49591A00B3790F /* Build configuration list for PBXNativeTarget "AlbanoboardTests" */;
+			buildPhases = (
+				F7A8053C2C49591A00B3790F /* Sources */,
+				F7A8053D2C49591A00B3790F /* Frameworks */,
+				F7A8053E2C49591A00B3790F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F7A805422C49591A00B3790F /* PBXTargetDependency */,
+			);
+			name = AlbanoboardTests;
+			productName = AlbanoboardTests;
+			productReference = F7A805402C49591A00B3790F /* AlbanoboardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F7A805492C49591A00B3790F /* AlbanoboardUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7A8055A2C49591A00B3790F /* Build configuration list for PBXNativeTarget "AlbanoboardUITests" */;
+			buildPhases = (
+				F7A805462C49591A00B3790F /* Sources */,
+				F7A805472C49591A00B3790F /* Frameworks */,
+				F7A805482C49591A00B3790F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F7A8054C2C49591A00B3790F /* PBXTargetDependency */,
+			);
+			name = AlbanoboardUITests;
+			productName = AlbanoboardUITests;
+			productReference = F7A8054A2C49591A00B3790F /* AlbanoboardUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F7A805272C49591900B3790F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					F7A8052E2C49591900B3790F = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					F7A8053F2C49591A00B3790F = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = F7A8052E2C49591900B3790F;
+					};
+					F7A805492C49591A00B3790F = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = F7A8052E2C49591900B3790F;
+					};
+				};
+			};
+			buildConfigurationList = F7A8052A2C49591900B3790F /* Build configuration list for PBXProject "Albanoboard" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F7A805262C49591900B3790F;
+			productRefGroup = F7A805302C49591900B3790F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F7A8052E2C49591900B3790F /* Albanoboard */,
+				F7A8053F2C49591A00B3790F /* AlbanoboardTests */,
+				F7A805492C49591A00B3790F /* AlbanoboardUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F7A8052D2C49591900B3790F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7A8053B2C49591A00B3790F /* Preview Assets.xcassets in Resources */,
+				F7A805372C49591A00B3790F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7A8053E2C49591A00B3790F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7A805482C49591A00B3790F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F7A8052B2C49591900B3790F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7A805352C49591900B3790F /* ContentView.swift in Sources */,
+				F7A805332C49591900B3790F /* AlbanoboardApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7A8053C2C49591A00B3790F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7A805452C49591A00B3790F /* AlbanoboardTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7A805462C49591A00B3790F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7A805512C49591A00B3790F /* AlbanoboardUITestsLaunchTests.swift in Sources */,
+				F7A8054F2C49591A00B3790F /* AlbanoboardUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F7A805422C49591A00B3790F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F7A8052E2C49591900B3790F /* Albanoboard */;
+			targetProxy = F7A805412C49591A00B3790F /* PBXContainerItemProxy */;
+		};
+		F7A8054C2C49591A00B3790F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F7A8052E2C49591900B3790F /* Albanoboard */;
+			targetProxy = F7A8054B2C49591A00B3790F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F7A805522C49591A00B3790F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F7A805532C49591A00B3790F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		F7A805552C49591A00B3790F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Albanoboard/Albanoboard.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Albanoboard/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.antonio.Albanoboard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F7A805562C49591A00B3790F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Albanoboard/Albanoboard.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Albanoboard/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.antonio.Albanoboard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F7A805582C49591A00B3790F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.antonio.AlbanoboardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Albanoboard.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Albanoboard";
+			};
+			name = Debug;
+		};
+		F7A805592C49591A00B3790F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.antonio.AlbanoboardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Albanoboard.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Albanoboard";
+			};
+			name = Release;
+		};
+		F7A8055B2C49591A00B3790F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.antonio.AlbanoboardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Albanoboard;
+			};
+			name = Debug;
+		};
+		F7A8055C2C49591A00B3790F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.antonio.AlbanoboardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Albanoboard;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F7A8052A2C49591900B3790F /* Build configuration list for PBXProject "Albanoboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7A805522C49591A00B3790F /* Debug */,
+				F7A805532C49591A00B3790F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7A805542C49591A00B3790F /* Build configuration list for PBXNativeTarget "Albanoboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7A805552C49591A00B3790F /* Debug */,
+				F7A805562C49591A00B3790F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7A805572C49591A00B3790F /* Build configuration list for PBXNativeTarget "AlbanoboardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7A805582C49591A00B3790F /* Debug */,
+				F7A805592C49591A00B3790F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7A8055A2C49591A00B3790F /* Build configuration list for PBXNativeTarget "AlbanoboardUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7A8055B2C49591A00B3790F /* Debug */,
+				F7A8055C2C49591A00B3790F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F7A805272C49591900B3790F /* Project object */;
+}
