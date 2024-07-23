@@ -141,6 +141,7 @@ struct ContentView: View {
         }
         .frame(width: 300, height: 200)
         .padding()
+        .fixedSize() // Impedisce il ridimensionamento della vista principale
     }
 }
 
