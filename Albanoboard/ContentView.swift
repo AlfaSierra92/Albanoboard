@@ -8,8 +8,11 @@
 import SwiftUI
 import AVKit
 
+import AVFoundation
+
 class SoundManager: ObservableObject {
-    var player: AVAudioPlayer?
+    var players: [AVAudioPlayer] = []
+    var allowParallelPlayback: Bool = false
 
     func playSound(sound: String, type: String) {
         guard let url = Bundle.main.url(forResource: sound, withExtension: type) else {
@@ -18,11 +21,22 @@ class SoundManager: ObservableObject {
         }
         print("Audio trovato")
         do {
-            player = try AVAudioPlayer(contentsOf: url)
-            //player?.volume = 1.0  // Imposta il volume al 100%
-            player?.prepareToPlay()
+            let player = try AVAudioPlayer(contentsOf: url)
+            //player.volume = 1.0  // Imposta il volume al 100%
+            player.prepareToPlay()
+            
+            if !allowParallelPlayback {
+                            // Stoppa tutti i player esistenti
+                            for existingPlayer in players {
+                                existingPlayer.stop()
+                            }
+                            // Pulisci la lista dei player
+                            players.removeAll()
+                        }
+            
+            player.play()
+            players.append(player) // Aggiungi il player alla lista dei players
             print("Riproduzione")
-            player?.play()
         } catch {
             print("Errore durante la riproduzione del file audio:", error.localizedDescription)
         }
@@ -30,43 +44,23 @@ class SoundManager: ObservableObject {
 }
 
 
-/*func playSound(sound: String, type: String) {
-    guard let url = Bundle.main.url(forResource: sound, withExtension: type) else {
-            print("File audio non trovato.")
-            return
-        }
-        print("Audio trovato")
-        do {
-            let player = try AVAudioPlayer(contentsOf: url)
-            player.volume = 1.0  // Imposta il volume al 100%
-            player.prepareToPlay()
-            print("Riproduzione")
-            player.play()
-        } catch {
-            print("Errore durante la riproduzione del file audio:", error.localizedDescription)
-        }
-}*/
-
-
 struct ContentView: View {
     @StateObject private var soundManager = SoundManager()
     @State private var selectedMode: Set<String> = []
-    @State private var defaultMode: String = "1"
+    @State private var defaultMode: String = "false"
     
     private let sounds = [
-            "1",
-            "2",
-            "3"
+            "false",
+            "true"
         ]
     
     var body: some View {
         VStack {
-            Picker("", selection: $defaultMode) {
-                            ForEach(sounds, id: \.self) { sound in
-                                Text(sound).tag(sound)
-                            }
+            Picker("", selection: $soundManager.allowParallelPlayback) {
+                            Text("Parallelo").tag(true)
+                            Text("Singolo").tag(false)
                         }
-            .pickerStyle(.segmented)
+                        .pickerStyle(SegmentedPickerStyle())
                         .padding()
             HStack {
                 Button(action: {
