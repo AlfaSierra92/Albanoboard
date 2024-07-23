@@ -14,6 +14,16 @@
 		F7A805452C49591A00B3790F /* AlbanoboardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A805442C49591A00B3790F /* AlbanoboardTests.swift */; };
 		F7A8054F2C49591A00B3790F /* AlbanoboardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A8054E2C49591A00B3790F /* AlbanoboardUITests.swift */; };
 		F7A805512C49591A00B3790F /* AlbanoboardUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A805502C49591A00B3790F /* AlbanoboardUITestsLaunchTests.swift */; };
+		F7A805632C49608100B3790F /* Le nuvole.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F7A8055D2C49608100B3790F /* Le nuvole.mp3 */; };
+		F7A805642C49608100B3790F /* I delfini.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F7A8055E2C49608100B3790F /* I delfini.mp3 */; };
+		F7A805652C49608100B3790F /* E tu.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F7A8055F2C49608100B3790F /* E tu.mp3 */; };
+		F7A805662C49608100B3790F /* Gli elefanti.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F7A805602C49608100B3790F /* Gli elefanti.mp3 */; };
+		F7A805672C49608100B3790F /* I treni.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F7A805612C49608100B3790F /* I treni.mp3 */; };
+		F7A805682C49608100B3790F /* Dove vai a ballare.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F7A805622C49608100B3790F /* Dove vai a ballare.mp3 */; };
+		F7A8056C2C49631100B3790F /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7A8056B2C49631100B3790F /* AVFoundation.framework */; };
+		F7A8056E2C49634E00B3790F /* AVFAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7A8056D2C49634E00B3790F /* AVFAudio.framework */; };
+		F7A8056F2C4963AF00B3790F /* I delfini.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F7A8055E2C49608100B3790F /* I delfini.mp3 */; };
+		F7A805702C4963B000B3790F /* I delfini.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F7A8055E2C49608100B3790F /* I delfini.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +55,14 @@
 		F7A8054A2C49591A00B3790F /* AlbanoboardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlbanoboardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7A8054E2C49591A00B3790F /* AlbanoboardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbanoboardUITests.swift; sourceTree = "<group>"; };
 		F7A805502C49591A00B3790F /* AlbanoboardUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbanoboardUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F7A8055D2C49608100B3790F /* Le nuvole.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Le nuvole.mp3"; sourceTree = "<group>"; };
+		F7A8055E2C49608100B3790F /* I delfini.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "I delfini.mp3"; sourceTree = "<group>"; };
+		F7A8055F2C49608100B3790F /* E tu.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "E tu.mp3"; sourceTree = "<group>"; };
+		F7A805602C49608100B3790F /* Gli elefanti.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Gli elefanti.mp3"; sourceTree = "<group>"; };
+		F7A805612C49608100B3790F /* I treni.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "I treni.mp3"; sourceTree = "<group>"; };
+		F7A805622C49608100B3790F /* Dove vai a ballare.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Dove vai a ballare.mp3"; sourceTree = "<group>"; };
+		F7A8056B2C49631100B3790F /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS17.5.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
+		F7A8056D2C49634E00B3790F /* AVFAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFAudio.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS17.5.sdk/System/Library/Frameworks/AVFAudio.framework; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +70,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F7A8056C2C49631100B3790F /* AVFoundation.framework in Frameworks */,
+				F7A8056E2C49634E00B3790F /* AVFAudio.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,10 +95,17 @@
 		F7A805262C49591900B3790F = {
 			isa = PBXGroup;
 			children = (
+				F7A805622C49608100B3790F /* Dove vai a ballare.mp3 */,
+				F7A8055F2C49608100B3790F /* E tu.mp3 */,
+				F7A805602C49608100B3790F /* Gli elefanti.mp3 */,
+				F7A8055E2C49608100B3790F /* I delfini.mp3 */,
+				F7A805612C49608100B3790F /* I treni.mp3 */,
+				F7A8055D2C49608100B3790F /* Le nuvole.mp3 */,
 				F7A805312C49591900B3790F /* Albanoboard */,
 				F7A805432C49591A00B3790F /* AlbanoboardTests */,
 				F7A8054D2C49591A00B3790F /* AlbanoboardUITests */,
 				F7A805302C49591900B3790F /* Products */,
+				F7A8056A2C49631100B3790F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -127,6 +154,15 @@
 				F7A805502C49591A00B3790F /* AlbanoboardUITestsLaunchTests.swift */,
 			);
 			path = AlbanoboardUITests;
+			sourceTree = "<group>";
+		};
+		F7A8056A2C49631100B3790F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F7A8056D2C49634E00B3790F /* AVFAudio.framework */,
+				F7A8056B2C49631100B3790F /* AVFoundation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,8 +269,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F7A805632C49608100B3790F /* Le nuvole.mp3 in Resources */,
 				F7A8053B2C49591A00B3790F /* Preview Assets.xcassets in Resources */,
+				F7A805662C49608100B3790F /* Gli elefanti.mp3 in Resources */,
+				F7A805652C49608100B3790F /* E tu.mp3 in Resources */,
 				F7A805372C49591A00B3790F /* Assets.xcassets in Resources */,
+				F7A805642C49608100B3790F /* I delfini.mp3 in Resources */,
+				F7A805682C49608100B3790F /* Dove vai a ballare.mp3 in Resources */,
+				F7A805672C49608100B3790F /* I treni.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,6 +284,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F7A8056F2C4963AF00B3790F /* I delfini.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,6 +292,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F7A805702C4963B000B3790F /* I delfini.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -417,6 +461,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = Albanoboard/Albanoboard.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Albanoboard/Preview Content\"";
@@ -428,10 +473,10 @@
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
@@ -453,6 +498,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = Albanoboard/Albanoboard.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Albanoboard/Preview Content\"";
@@ -464,10 +510,10 @@
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
