@@ -64,7 +64,6 @@ struct ContentView: View {
                         .padding()
             HStack {
                 Button(action: {
-                    //print("Button 1 tapped")
                     soundManager.playSound(sound: "I delfini", type: "mp3")
                 }) {
                     Text("I delfini")

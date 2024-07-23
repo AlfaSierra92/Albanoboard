@@ -95,12 +95,6 @@
 		F7A805262C49591900B3790F = {
 			isa = PBXGroup;
 			children = (
-				F7A805622C49608100B3790F /* Dove vai a ballare.mp3 */,
-				F7A8055F2C49608100B3790F /* E tu.mp3 */,
-				F7A805602C49608100B3790F /* Gli elefanti.mp3 */,
-				F7A8055E2C49608100B3790F /* I delfini.mp3 */,
-				F7A805612C49608100B3790F /* I treni.mp3 */,
-				F7A8055D2C49608100B3790F /* Le nuvole.mp3 */,
 				F7A805312C49591900B3790F /* Albanoboard */,
 				F7A805432C49591A00B3790F /* AlbanoboardTests */,
 				F7A8054D2C49591A00B3790F /* AlbanoboardUITests */,
@@ -122,6 +116,7 @@
 		F7A805312C49591900B3790F /* Albanoboard */ = {
 			isa = PBXGroup;
 			children = (
+				F7D4261E2C4FE33D00C4BF00 /* Sounds */,
 				F7A805322C49591900B3790F /* AlbanoboardApp.swift */,
 				F7A805342C49591900B3790F /* ContentView.swift */,
 				F7A805362C49591A00B3790F /* Assets.xcassets */,
@@ -163,6 +158,19 @@
 				F7A8056B2C49631100B3790F /* AVFoundation.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F7D4261E2C4FE33D00C4BF00 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				F7A805622C49608100B3790F /* Dove vai a ballare.mp3 */,
+				F7A8055F2C49608100B3790F /* E tu.mp3 */,
+				F7A805602C49608100B3790F /* Gli elefanti.mp3 */,
+				F7A8055E2C49608100B3790F /* I delfini.mp3 */,
+				F7A805612C49608100B3790F /* I treni.mp3 */,
+				F7A8055D2C49608100B3790F /* Le nuvole.mp3 */,
+			);
+			path = Sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
