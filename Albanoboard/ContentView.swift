@@ -67,6 +67,7 @@ struct ContentView: View {
                     soundManager.playSound(sound: "I delfini", type: "mp3")
                 }) {
                     Text("I delfini")
+                        .font(.footnote)
                         .frame(maxWidth: .infinity)
                         .padding()
                         .background(Color.blue)
@@ -77,6 +78,7 @@ struct ContentView: View {
                     soundManager.playSound(sound: "Gli elefanti", type: "mp3")
                 }) {
                     Text("Gli elefanti")
+                        .font(.footnote)
                         .frame(maxWidth: .infinity)
                         .padding()
                         .background(Color.blue)
@@ -91,6 +93,7 @@ struct ContentView: View {
                     soundManager.playSound(sound: "Le nuvole", type: "mp3")
                 }) {
                     Text("Le nuvole")
+                        .font(.footnote)
                         .frame(maxWidth: .infinity)
                         .padding()
                         .background(Color.blue)
@@ -101,6 +104,7 @@ struct ContentView: View {
                     soundManager.playSound(sound: "I treni", type: "mp3")
                 }) {
                     Text("I treni")
+                        .font(.footnote)
                         .frame(maxWidth: .infinity)
                         .padding()
                         .background(Color.blue)
@@ -115,6 +119,7 @@ struct ContentView: View {
                     soundManager.playSound(sound: "E tu", type: "mp3")
                 }) {
                     Text("E tu")
+                        .font(.footnote)
                         .frame(maxWidth: .infinity)
                         .padding()
                         .background(Color.blue)
@@ -125,6 +130,7 @@ struct ContentView: View {
                     soundManager.playSound(sound: "Dove vai a ballare", type: "mp3")
                 }) {
                     Text("Dove vai a ballare?")
+                        .font(.footnote)
                         .frame(maxWidth: .infinity)
                         .padding()
                         .background(Color.blue)
