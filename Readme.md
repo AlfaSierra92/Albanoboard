@@ -23,7 +23,7 @@ Albanoboard is an app that serves as a starting point for developers who want to
 
 1. **Clone the repository:**
 
-   ``bash
+   ```bash
    git clone https://github.com/alfasierra92/albanoboard.git
    ```
 
@@ -37,4 +37,4 @@ Press the "Run" button in Xcode to build and start the app on a simulator or phy
 
 ## Licence
 
-This project is licensed under the MIT licence. See the LICENSE file for more details.
+This project is licensed under the MIT licence.
